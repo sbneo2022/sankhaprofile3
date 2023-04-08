@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sankha Banerjee</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+
+      html {
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      body {
+        overflow-x: hidden;
+        display: flex;
+        width: 100vw;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 2rem;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      main {
+        max-width: min(60rem, 100%);
+      }
+
+      footer {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: #000;
+        opacity: 0.3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      section p {
+        margin-bottom: 1rem;
+      }
+
+      .divider {
+        width: 100%;
+        height: 1px;
+
+        background: #000;
+        opacity: 0.3;
+
+        margin: 1rem 0;
+      }
+
+      .name {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #000;
+        opacity: 0.5;
+      }
+
+      .profile-pic {
+        width: 30rem;
+        max-width: 100%;
+      }
+
+      .profile-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .icon {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 1px;
+        margin-left: 0.5rem;
+      }
+
+      .fixed-links {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- TODO: Add pages -->
+      </div>
+    </header>
+    <div class="profile">
+      <img class="profile-pic" src="/profile.jpg" alt="Profile" />
+      <div class="profile-info">
+        <h1 class="name">Dr. Sankha Banerjee</h1>
+
+        <div class="links"></div>
+      </div>
+    </div>
+
+    <div class="fixed-links">
+      <a
+        href="https://www.linkedin.com/in/sankha-banerjee-8a04419/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="/icons/linkedin.svg" alt="Linkedin" />
+      </a>
+      <a
+        href="https://twitter.com/BanerjeSankha"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/twitter.svg" alt="Twitter" />
+      </a>
+      <a href="https://medium.com/@sankha80" target="_blank" rel="noreferrer">
+        <img class="icon" src="icons/medium.svg" alt="Medium" />
+      </a>
+      <a href="https://github.com/sbneo2022" target="_blank" rel="noreferrer">
+        <img class="icon" src="icons/github.svg" alt="Github" />
+      </a>
+      <a
+        href="https://discordapp.com/users/689998714085048437"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/discord.svg" alt="Discord" />
+      </a>
+      <a
+        href="https://substack.com/profile/4270584-sankha-banerjee"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/substack.svg" alt="Substack" />
+      </a>
+    </div>
+    <main>
+      <h2 class="section-header">About</h2>
+      <div class="divider"></div>
+      <section>
+        <p>
+          Sankha finished his doctoral thesis applying machine learning to
+          non-linear dynamical systems from
+          <a href="https://www.mit.edu/">MIT</a>. He finished his finance degree
+          from the Sloan School of Management at
+          <a href="https://www.mit.edu/">MIT</a>.
+        </p>
+        <p>
+          During his PhD he focussed on using supercomputing facilities
+          available to <a href="https://www.mit.edu/">MIT</a> researchers, for
+          the first time to simulate a
+          <a
+            href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/threedimensional-effects-on-flag-flapping-dynamics/A9E2A95E4193D8052AF56A612889D8B7"
+          >
+            three-dimensional flag and derive its analytical constraints on
+            stability </a
+          >. During his PhD, Sankha published
+          <a
+            href="https://www.tandfonline.com/doi/abs/10.1080/14685240701506896?role=button&needAccess=true&journalCode=tjot20"
+          >
+            10 peer review journals in the field of Turbulence incorporating
+            computer graphics and invariant theory influencing multiple
+            references
+          </a>
+          from
+          <a
+            href="https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040547"
+          >
+            NASA.
+          </a>
+        </p>
+
+        <p>
+          <b>Major papers:</b>
+          <a href="https://mit.academia.edu/SankhaBanerjee">
+            https://mit.academia.edu/SankhaBanerjee</a
+          >.
+        </p>
+        <p>
+          Current passion is in designing event driven Systems for
+          high-frequency market making. Sankha operates an inhouse event-driven
+          liquidity-providing trading strategy at ultra-low latency while
+          maintaining a relatively neutral position on the top crypto-exchanges
+          and a major DEX. The plan is to release the whitepaper, and
+          open-source the system for community development from like minded
+          researchers and traders. Currently the code is used with some
+          researchers from MIT and Harvard to investigate the effect of
+          cancellations on market quality and the agent's profitability on
+          crypto-exchanges.
+        </p>
+        <p>
+          First few years at
+          <a href="https://www.cci.com">
+            Castleton Commodities International
+          </a>
+          developing and implementing algorithms on electricity, commodity,
+          forex, and interest-rate-derivative markets on NYSE/CME. Work in
+          cryptocurrency started in 2014; focused on implementing a machine
+          learning based real-estate valuation and buying of assets on
+          <a href="https://algorand.com">Algorand blockchain </a>. Spent 3 years
+          working as a fully systematic quant/trader at family offices,
+          <a href="https://www.linkedin.com/company/blue-ridge-capital/">
+            Blue Ridge Investments
+          </a>
+          and
+          <a href="https://www.linkedin.com/company/eastmore-group/">
+            EastMore Group
+          </a>
+          building a global macro book operating at 2.0 sharpe and 3% drawdown.
+        </p>
+        <p>
+          In 2017, moved to crypto full-time and spent a year building/executing
+          the market-making algorithms for BITMEX/BINANCE on perp markets,
+          becoming one of the top market makers with a $1 billion weekly volume.
+          In 2020, was appointed the CEO of
+          <a href="https://www.credencelimited.com">Credence Limited</a>, given
+          a 4 million dollar portfolio to invest in early stage L1 protocols
+          focused on DeFi. The approach for portfolio construction was based on
+          heavy infrastructure, codebase diligence, with specific focus on the
+          <a href="https://cosmos.network"> Cosmos Blockchain </a>.
+        </p>
+        <p>
+          Sankha contributed to the initial design of the arbitrage framework
+          between the
+          <a href="https://coinmarketcap.com/exchanges/thorchain-bep20/">
+            BEP20 RUNE
+          </a>
+          and the
+          <a href="https://www.binance.com/en">Binance</a>, leading him to
+          become the lead investor of
+          <a href="https://thorchain.org">Thorchain</a>. Sankha has been focused
+          on helping with the growth of DeFi the Cosmos ecosystem, with projects
+          namely <a href="https://thorchain.org">Thorchain</a>,
+          <a href="https://bandprotocol.com">Band</a>,
+          <a href="https://www.kava.io">Kava</a>, and
+          <a href="https://akash.network">Akash</a>
+          as seed investors from 2018. Currently, he is the protocol architect
+          of NIBIRU (decentralized perpetual trading platform with its
+          stablecoin and DEX) on Cosmos.
+        </p>
+      </section>
+
+      <h2 class="section-header">Contacts</h2>
+      <div class="divider"></div>
+      <section>
+        I'm most responsive via email
+        <a href="mailto:sankha80@gmail.com">sankha80@gmail.com</a>
+      </section>
+
+      <div class="divider"></div>
+
+      <footer>©Sankha Banerje</footer>
+    </main>
+  </body>
+</html>

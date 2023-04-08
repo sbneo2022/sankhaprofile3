@@ -1,0 +1,11 @@
+<svg role="img" width="16" height="18" viewBox="-2 -2 20 22" fill="none" stroke-width="1.8" stroke="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="200" height="200" fill="#000000" x="-100" y="-100" />
+	<g>
+		<path d="M16 4H0V6H16V4Z" fill="#ffffff">
+		</path>
+		<path d="M0 8V18L7.9993 13.534L16 18V8H0Z" fill="#ffffff">
+		</path>
+		<path d="M16 0H0V2H16V0Z" fill="#ffffff">
+		</path>
+	</g>
+</svg>
